@@ -38,7 +38,7 @@ function Main() {
         </video>
 
         <video class="main__video main__video--left" no-controls autoPlay loop playsInline muted
-        src="./videos/bags.mp4" type="video/mp4"
+        src="./videos/bags.MP4" type="video/mp4"
         >
         </video>
 

@@ -1,0 +1,16 @@
+.contact {
+    display: flex;
+    gap: 30px
+}
+
+@media (max-width: 750px) {
+    .contact__img {
+        max-width: 150px;
+    }
+}
+
+@media (max-width: 650px) {
+    .contact__img {
+       display: none;
+    }
+}

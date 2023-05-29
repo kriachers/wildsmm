@@ -1,0 +1,131 @@
+.modal {
+    display: none;
+
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+    height: 95vh;
+    z-index: 10;
+    padding: 50px 20px;
+    box-shadow: 0 0 0 9999px rgba(0, 0, 0, 0.5);
+    background-color: #fff;
+    border-radius: 20px;
+
+    overflow: scroll;
+}
+
+.modal.active {
+    display: block;
+}
+
+.modal__container {
+    margin: auto;
+    position: relative;
+}
+
+.modal__cross {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+}
+
+.modal__content {
+    display: flex;
+    gap: 20px;
+}
+
+.modal__video {
+    min-width: 340px;
+    border-radius: 20px; 
+    overflow: hidden; 
+}
+
+.modal-info__goal,
+.modal__result, 
+.modal-info__list {
+    margin-bottom: 50px;
+}
+
+.modal__viewPic {
+    position: absolute;
+    bottom: 20px;
+    right: 7%;
+
+    border-radius: 10px;
+    max-width: 150px;
+    transform: rotate(10deg);
+
+    opacity: 0;
+
+    animation-name: pop-up-view;
+    animation-duration: .4s;
+    animation-timing-function: ease;
+    animation-delay: .4s;
+    
+    animation-fill-mode: forwards;
+}
+
+@keyframes pop-up-view {
+    0% {
+        opacity: 1;
+        transform: scale(2.6);
+    }
+    100% {
+        opacity: 1;
+        transform: scale(1) rotate(10deg);
+    }
+    }
+
+    @media (max-width: 1100px) {
+        .modal__viewPic {
+            display: none;
+        }
+    }
+
+
+    @media (max-width: 680px) {
+        .modal__content {
+            flex-direction: column;
+        }
+
+     .modal__video {
+        width: 340px;
+        margin: 0 auto;
+        }
+
+    }
+
+    @media (max-width: 420px) {
+        .react__player{
+            width: 80vw !important; 
+            height: auto !important;
+            display: block;
+            margin: 0 auto;
+            
+         }
+
+         .modal__video {
+            width: 80vw;
+            min-width: 80vw;
+            }
+
+            
+
+
+
+         .modal {
+            padding: 20px 20px;
+            width: 95%;
+         }
+    }
+
+    @media (max-width: 340px) {
+
+         .modal {
+            padding: 20px 20px;
+            width: 95%;
+         }
+    }

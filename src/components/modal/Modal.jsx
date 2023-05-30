@@ -31,7 +31,9 @@ function Modal(props) {
                         width='340px'
                         // playing = {false}
                         style={{borderRadius: '10px'}}
-                        playing url={`${portfolioData[portfolioIndex].video}`}>
+                        playing={true}
+                        light = {`${portfolioData[portfolioIndex].img}`}
+                        url={`${portfolioData[portfolioIndex].video}`}>
 
                         </ReactPlayer>
                     </div>

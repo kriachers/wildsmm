@@ -1,6 +1,7 @@
 import Modal from "../modal/Modal";
 import { AppContext } from '../../App';
 import React from 'react';
+import MyLoader from '../MyLoader'
 
 import portfolioData from '../../DATA';
 
@@ -24,7 +25,6 @@ function Portfolio() {
 
             <div className="portfolio__grid">
 
-           
             {
                 portfolioData.slice(0, portfolioItemsCount).map((item, index) => {
                     return (

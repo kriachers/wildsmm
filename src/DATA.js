@@ -1,7 +1,7 @@
 const portfolioData = [
     {
         img: './pics/1.jpg',
-        video: './videos/bags.MP4',
+        video: './videos/bags.mp4',
         stages: ["написание сценария", "съемка видео", "монтаж видео"],
         goal: 'Создание креативного монтажа с использованием продукции бренда.'
     },
@@ -9,7 +9,7 @@ const portfolioData = [
         img: './pics/2.jpg',
         views: '440 тысяч',
         viewPic: './view-pics/lk-pensilcase.jpg',
-        video: './videos/pensilcase.MOV',
+        video: './videos/pensilcase.mov',
         link: '',
         goal: 'Виидео, созданное для бренда ярких товаров для учебы и дома.',
         stages: ["написание сценария", "съемка видео", "озвучка видеоматериалов", "монтаж видео"]
@@ -17,7 +17,7 @@ const portfolioData = [
     {
         img: './pics/3.jpg',
         views: '766 тысяч',
-        video: './videos/lk-soks.MP4',
+        video: './videos/lk-soks.mp4',
         viewPic: './view-pics/lk-soks.jpg',
         link: '',
         goal: 'Виидео, созданное для бренда ярких товаров для учебы и дома. В ролике мы креативно обыграли идею ярких надписей на носках с использованием треков известных исполнителей. Ролик завирусился в тик-токе и привлек потенциальных покупателей к бренду',
@@ -34,7 +34,7 @@ const portfolioData = [
     {
         img: './pics/5.jpg',
         views: '820 тысяч',
-        video: './videos/obj-pravo.MOV',
+        video: './videos/obj-pravo.mov',
         link: '',
         stages: ["написание сценария", "съемка видео", "озвучка видеоматериалов", "монтаж видео"],
         goal: "Видео, созданное для курсов подготовки к ЕГЭ по обществознанию"
@@ -43,7 +43,7 @@ const portfolioData = [
     {
         img: './pics/6.jpg',
         link: '',
-        video: './videos/obj-artem.MOV',
+        video: './videos/obj-artem.mov',
         stages: ["написание сценария", "съемка видео", "монтаж видео"],
         views: '860 тысяч',
         goal: "Видео, созданное для курсов подготовки к ЕГЭ по обществознанию"
@@ -51,7 +51,7 @@ const portfolioData = [
     {
         img: './pics/7.png',
         link: 'https://www.tiktok.com/@pro_vzglyad.ru/video/7020409037674024194',
-        video: './videos/pro.MP4',
+        video: './videos/pro.mp4',
         views: '3 миллиона',
         stages: ["написание сценария", "съемка видео", "озвучка видеоматериалов", "монтаж видео"],
         goal: "Видео, созданное для учебного центра по наращиванию ресниц"
@@ -59,7 +59,7 @@ const portfolioData = [
     {
         img: './pics/lk-top3.jpg',
         link: '',
-        video: './videos/lk-top3.MP4',
+        video: './videos/lk-top3.mp4',
         viewPic: './view-pics/lk-top3.jpg',
         views: '355 тысяч',
         stages: ["написание сценария", "съемка видео", "озвучка видеоматериалов", "монтаж видео"],
@@ -68,7 +68,7 @@ const portfolioData = [
     {
         img: './pics/obj-pudra.jpg',
         link: '',
-        video: './videos/obj-pudra.MOV',
+        video: './videos/obj-pudra.mov',
         stages: ["написание сценария", "съемка видео", "монтаж видео"],
         views: '860 тысяч',
         goal: "Видео, созданное для курсов подготовки к ЕГЭ по обществознанию"
@@ -76,7 +76,7 @@ const portfolioData = [
     {
         img: './pics/nail-gel.jpg',
         link: '',
-        video: './videos/nail-gel.MP4',
+        video: './videos/nail-gel.mp4',
         stages: ["съемка видео", "монтаж видео"],
         views: '860 тысяч',
         goal: "Видео, созданное для рекламы светоотражающих гель-лаков. Цель ролика: передать блеск лаков"
@@ -84,7 +84,7 @@ const portfolioData = [
     {
         img: './pics/pm-papka.jpg',
         link: '',
-        video: './videos/pm-papka.MP4',
+        video: './videos/pm-papka.mp4',
         stages: ["съемка видео", "монтаж видео"],
         views: '860 тысяч',
         goal: "Креативное видео, созданное для рекламы кожаных папок"
@@ -93,7 +93,7 @@ const portfolioData = [
         img: './pics/lilllko-penal.jpg',
         
         link: '',
-        video: './videos/lilkko-pensil.MOV',
+        video: './videos/lilkko-pensil.mov',
         stages: ["съемка видео", "монтаж видео"],
         views: '860 тысяч',
         goal: "Яркое и красочное видео для таргетированной рекламы пеналов"
@@ -101,7 +101,7 @@ const portfolioData = [
     {
         img: './pics/nail-palitra.jpg',
         link: '',
-        video: './videos/nail-palitra.MOV',
+        video: './videos/nail-palitra.mov',
         stages: ["съемка видео", "монтаж видео"],
         views: '860 тысяч',
         goal: "Видео с озвучкой, созданное для рекламы палитры для смешивания гель лаков. Цель видео: рассказать о ценности продукта, выявив проблему мастеров маникюра и предложив им решение"

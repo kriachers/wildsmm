@@ -1,6 +1,6 @@
 function Contact () {
     return (
-        <section>
+        <section >
             <div className="contact container">
 
             <img src="./pics/tg3.svg" alt="" className="contact__img" />

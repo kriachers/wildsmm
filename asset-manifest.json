@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/wildsmm/static/css/main.772e1d41.css",
-    "main.js": "/wildsmm/static/js/main.03fd8be2.js",
+    "main.css": "/wildsmm/static/css/main.d652ce9e.css",
+    "main.js": "/wildsmm/static/js/main.68cdec73.js",
     "static/js/787.185594d6.chunk.js": "/wildsmm/static/js/787.185594d6.chunk.js",
     "static/media/Montserrat-Regular.woff": "/wildsmm/static/media/Montserrat-Regular.3db65dc4b858f0fed4fb.woff",
     "static/media/Montserrat-Medium.woff": "/wildsmm/static/media/Montserrat-Medium.d42dad28f6470e5162c2.woff",
@@ -15,12 +15,12 @@
     "static/media/Graphik-Thin.woff2": "/wildsmm/static/media/Graphik-Thin.88a04f46a2b51ff2123a.woff2",
     "static/media/Graphik-Regular.woff2": "/wildsmm/static/media/Graphik-Regular.42a9b7733ff5f4bc9df8.woff2",
     "index.html": "/wildsmm/index.html",
-    "main.772e1d41.css.map": "/wildsmm/static/css/main.772e1d41.css.map",
-    "main.03fd8be2.js.map": "/wildsmm/static/js/main.03fd8be2.js.map",
+    "main.d652ce9e.css.map": "/wildsmm/static/css/main.d652ce9e.css.map",
+    "main.68cdec73.js.map": "/wildsmm/static/js/main.68cdec73.js.map",
     "787.185594d6.chunk.js.map": "/wildsmm/static/js/787.185594d6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.772e1d41.css",
-    "static/js/main.03fd8be2.js"
+    "static/css/main.d652ce9e.css",
+    "static/js/main.68cdec73.js"
   ]
 }

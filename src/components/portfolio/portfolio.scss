@@ -85,10 +85,23 @@
         "e f";
     
     }
+
+    .portfolio-item__play {
+        right: auto;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        width: 60px;
+    }
+
+    .portfolio__item:hover:hover .portfolio-item__play {
+        transform: translate(-50%, -50%);
+        width: 90px;
+    }
 }
 
 @media (max-width: 480px) {
     .portfolio-item__views {
-        font-size: 16px;
+        font-size: 14px;
     }
 }

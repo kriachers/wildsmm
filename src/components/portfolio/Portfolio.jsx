@@ -32,7 +32,10 @@ function Portfolio() {
                         onClick={() => clickPotfolio(index)}
                         className={`portfolio__item portfolio__item--${index}`}>
                             <img className="portfolio-item__img" src={`${item.img}`} alt="" />
-                            <p className="portfolio-item__views">{`${item.views}`}</p>
+                            {
+                                item.views &&  <p className="portfolio-item__views">{`${item.views}`}</p>
+                            }
+                           
 
                             <img src="play.svg" alt="" className="portfolio-item__play" />
    

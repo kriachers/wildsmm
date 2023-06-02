@@ -1,6 +1,10 @@
 .contact {
     display: flex;
-    gap: 30px
+    gap: 30px;
+    background-color: #eeeef4;
+    border-radius: 25px;
+    padding: 20px;
+
 }
 
 @media (max-width: 750px) {

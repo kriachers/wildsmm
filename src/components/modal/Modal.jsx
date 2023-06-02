@@ -43,10 +43,13 @@ function Modal(props) {
                     <h3 className="title title-s-margin">Tik-Tok видео</h3>
                     <p className="modal-info__goal">{`${portfolioData[portfolioIndex].goal}`}</p>
 
-                    <div className="modal__result">
-                        <h3 className="title title-s-margin">Результат:</h3>
-                        <h3 className=" modal-info__views">{`${portfolioData[portfolioIndex].views} просмотров`}</h3>
-                    </div>
+                    {
+                        portfolioData[portfolioIndex].views &&
+                        <div className="modal__result">
+                            <h3 className="title title-s-margin">Результат:</h3>
+                            <h3 className=" modal-info__views">{`${portfolioData[portfolioIndex].views} просмотров`}</h3>
+                        </div>
+                    }
 
                     <h3 className="title title-s-margin">Этапы работы:</h3>
                     <ul className="modal-info__list">
@@ -56,7 +59,11 @@ function Modal(props) {
                             })
                         }
                     </ul>
-                    <a href={`${portfolioData[portfolioIndex].link}`} target="_blank" className="link modal-info__link">Ссылка на видео</a>
+
+                        {
+                            portfolioData[portfolioIndex].link &&  <a href={`${portfolioData[portfolioIndex].link}`} target="_blank" className="link modal-info__link">Видео в тик-ток</a>
+                        }
+                   
 
                     {
                         portfolioData[portfolioIndex].viewPic ?

@@ -111,3 +111,12 @@
         display: none;
     }
 }
+
+@media (max-width: 500px) {
+
+    .work-accordion__item:not(:last-child) {
+        margin-bottom: 20px;
+    }
+
+}
+

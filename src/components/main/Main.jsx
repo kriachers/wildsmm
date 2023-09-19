@@ -22,7 +22,7 @@ function Main() {
             </span>
           </p>
           <p className="main__descr">
-            создаю вертикальные видео <br></br> с миллионными просмотрами
+            Вертикальные видео, <br></br> с миллионными просмотрами
           </p>
 
           <div className="main-button__wrapper">

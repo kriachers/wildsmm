@@ -27,7 +27,7 @@ const portfolioData = [
         img: './pics/4.jpg',
         views: '2 миллиона',
         link: 'https://www.tiktok.com/@tres_pubg/video/7067896278373387521',
-        video: './videos/pubg.mov',
+        video: './videos/pubg.mp4',
         stages: ["написание сценария", "внутриигровая съемка видео", "озвучка видеоматериалов", "монтаж видео"],
         goal: "Видео, созданное для популярного игрвого блога Tres Pubg. Использовалась внутриигровая съемка, озвучка и монтаж. "
     },

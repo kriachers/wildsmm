@@ -18,6 +18,18 @@
 }
 
 @font-face {
+    font-family: 'Montserrat';
+    font-weight: 800;
+    src: url(../public/fonts/Montserrat-Bold.woff2);
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    font-weight: 900;
+    src: url(../public/fonts/Montserrat-ExtraBold.woff2);
+}
+
+@font-face {
     font-family: 'Graphik';
     font-weight: 100;
     src: url(../public/fonts/Graphik-Thin.woff2);
@@ -329,6 +341,11 @@ section {
     .section-all {
         padding: 40px 20px;
     }
+
+    h2 {
+        font-size: 30px;
+    }
+
 }
 
 @media (max-width: 320px) {    

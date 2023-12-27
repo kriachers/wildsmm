@@ -23,7 +23,6 @@ function App() {
         <Main></Main>
         <Work></Work>
         <Portfolio></Portfolio>
-        <Contact></Contact>
       </AppContext.Provider>
       
     </div>

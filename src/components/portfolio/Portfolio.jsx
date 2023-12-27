@@ -31,12 +31,12 @@ function Portfolio() {
                         <div 
                         onClick={() => clickPotfolio(index)}
                         className={`portfolio__item portfolio__item--${index}`}>
+                            <span></span>
                             <img className="portfolio-item__img" src={`${item.img}`} alt="" />
                             {
                                 item.views &&  <p className="portfolio-item__views">{`${item.views}`}</p>
                             }
-                           
-
+                        
                             <img src="play.svg" alt="" className="portfolio-item__play" />
    
                         </div>
@@ -53,7 +53,7 @@ function Portfolio() {
                     <div 
                     className="button-block-outline"
                     onClick={() => setPortfolioItemsCount(portfolioItemsCount + 6)}>
-                        Загрузить еще
+                        Load more
                     </div>
                 </div>
                 

@@ -12,22 +12,22 @@ function Main() {
           <p className="main__title">
             <span className="main-title__span main-title__span--main">
               <span>
-                короткие видео
+              Short-Form videos
               </span>
             </span>
             <span className="main-title__span main-title__span--small">
               <span>
-                для бизнеса
+              content creator
               </span>
             </span>
           </p>
           <p className="main__descr">
-            Вертикальные видео, <br></br> с миллионными просмотрами
+            I create short-form videos <br></br> with million views
           </p>
 
           <div className="main-button__wrapper">
             <a href="#portfolio">
-            <div className="button main__button">портфолио</div>
+            <div className="button main__button">Portfolio</div>
             </a>
           </div>
         </div>

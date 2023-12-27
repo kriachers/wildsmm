@@ -18,7 +18,7 @@ const WorkData = [
     {
         title: 'Video Editing',
         media: './videos/editing.mp4',
-        descr: `After filming, I edit the raw footage. This includes tasks such as selecting the best shots, adding visual effects or graphics, incorporating music or sound effects, and ensuring a smooth flow and coherence in the final product.`
+        descr: `After filming, I edit the raw footage. This includes tasks such as selecting the best shots, adding visual effects, graphics, music and sound effects, and ensuring a smooth flow and coherence in the final product.`
     },
     {
         title: 'Publishing',

@@ -44,7 +44,7 @@ const portfolioData = [
     {
         img: './pics/calc.jpg',
         link: 'https://www.youtube.com/shorts/Km1phrjuS-U',
-        video: './videos/calc.mp4',
+        video: './videos/calc.MP4',
         stages: ["ideas generation", "video shooting", "script writing" ,"video editing"],
         views: '2.6 million',
         goal: "Video created for online school. In this video the teacher shares a valuable life hack with students"

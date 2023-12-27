@@ -34,7 +34,7 @@ const portfolioData = [
     },
     {
         img: './pics/3.jpg',
-        views: '766 tousand',
+        views: '766 thousand',
         video: './videos/lk-soks.mp4',
         viewPic: './view-pics/lk-soks.jpg',
         link: 'https://www.tiktok.com/@lilkko_rus/video/7020696477538274561',
@@ -67,7 +67,7 @@ const portfolioData = [
     },
     {
         img: './pics/5.jpg',
-        views: '770 tousand',
+        views: '770 thousand',
         video: './videos/obj-pravo.mov',
         link: 'https://vt.tiktok.com/ZSLNsTLhD/',
         stages: ["ideas generation", "video shooting", "script writing" ,"video editing"],
@@ -95,7 +95,7 @@ const portfolioData = [
         link: 'https://www.tiktok.com/@lilkko_rus/video/7005078450537123073',
         video: './videos/lk-top3.mp4',
         viewPic: './view-pics/lk-top3.jpg',
-        views: '355 тысяч',
+        views: '355 thousand',
         stages: ["ideas generation", "video shooting", "script writing" ,"video editing"],
         goal: "Video for a brand of bright products for school and home"
     },

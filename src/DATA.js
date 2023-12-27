@@ -25,7 +25,7 @@ const portfolioData = [
     },
     {
         img: './pics/2.jpg',
-        views: '843 tousand',
+        views: '843 thousand',
         viewPic: './view-pics/lk-pensilcase.jpg',
         video: './videos/pensilcase.mov',
         link: 'https://www.tiktok.com/@lilkko_rus/video/7026229631426514178',

@@ -4,9 +4,9 @@
 
 .portfolio__item {
     position: relative;
-        overflow: hidden;
-        width: 425px;
-        transition: 0.5s;
+    overflow: hidden;
+    width: 425px;
+    transition: 0.5s;
 }
 
   .portfolio__item span {
@@ -134,5 +134,13 @@
 @media (max-width: 480px) {
     .portfolio-item__views {
         font-size: 14px;
+    }
+
+    .portfolio__grid {
+        display: flex;
+        flex-direction: column;
+
+        align-items: center;
+    
     }
 }
